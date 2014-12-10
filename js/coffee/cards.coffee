@@ -291,7 +291,7 @@ class BasicOpeningBidStrategy
               suitShort = handSuit.suitShort
               level = handSuit.length - 4
               bidString = "" + level + suitShort
-              if bidStirng == "2C"
+              if bidString == "2C"
                 return new [Bid("PASS")]
               return [new Bid(bidString)]
 
